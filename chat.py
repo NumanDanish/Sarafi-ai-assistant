@@ -20,7 +20,7 @@ while True:
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-latest",
+            model="gemini-3.5-flash-latest",
             contents=history,
             config=types.GenerateContentConfig(system_instruction=system_prompt),
         )
